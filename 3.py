@@ -169,6 +169,11 @@ def compare1(arr,n):
                                             print(word[0])
                                  else:
                                             print(word[1])
+                      if a == '小于':
+                                 if n < num:
+                                            print(word[0])
+                                 else:
+                                            print(word[1])
                                                                 
 #两个变量、实现比较，返回算术运算后的结果
 def compare2(arr,n,x):  #n:比较数  x：改变数
