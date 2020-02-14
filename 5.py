@@ -237,6 +237,8 @@ def main():
                                             print(print_num(n[0]))
                                  elif arr[1] == a[1]:
                                             print(print_num(n[1]))
+                                 else:
+                                            print("无此变量")
 
                       if (res3 != None) & (res4 != None):
                                  if (arr[1] == a[0]) & (arr[5] == a[0]):
